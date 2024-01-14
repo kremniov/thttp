@@ -1,6 +1,6 @@
 # thttp (TestHTTP)
 
-A simple HTTP server written in Go for testing purposes.
+A simple HTTP server is written in Go for testing purposes.
 
 ## Features
 
@@ -19,7 +19,7 @@ This will start the server on port 8000 with a maximum timeout of 5000 milliseco
 ### Endpoints
 
 - `timeout`: Handles requests with a random timeout between 0 and the maximum timeout specified at startup.
-- `/\` : Handles all other requests and logs them.
+- `/`: Handles all other requests and logs them.
 
 ## Installation
 
